@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+  font-family: '微软雅黑';
+}
+
+ul li a {
+  display: block;
+  background: #cdd;
+  color: #cc3333;
+}
+ul li a:hover {
+  color: #eee;
+}
+
+/*# sourceMappingURL=index.css.map */
