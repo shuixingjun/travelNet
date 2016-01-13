@@ -1,41 +1,12 @@
-/*
-Error: Invalid GBK character "\xE5"
-        on line 6 of D:\demo\travelNet\css\index.scss
+@charset "UTF-8";
+body {
+  font-family: '微软雅黑'; }
 
-1: 
-2: $color: #cc3333;
-3: 
-4: 
-5: body {
-6: 	font-family: '微软雅黑';
-7: }
-8: 
-9: ul {
-10: 	li {
-11: 		a {
+ul li a {
+  display: block;
+  background: #cdd;
+  color: #cc3333; }
+  ul li a:hover {
+    color: #eee; }
 
-Backtrace:
-D:\demo\travelNet\css\index.scss:6
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:902:in `rescue in check_sass_encoding'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:898:in `check_sass_encoding'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-D:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-D:/Koala/bin/sass:18:in `load'
-D:/Koala/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid GBK character \"\xE5\"\A         on line 6 of D:\demo\travelNet\css\index.scss\A \A 1: \A 2: $color: #cc3333;\A 3: \A 4: \A 5: body {\A 6: 	font-family: '微软雅黑';\A 7: }\A 8: \A 9: ul {\A 10: 	li {\A 11: 		a {"; }
+/*# sourceMappingURL=index.css.map */
